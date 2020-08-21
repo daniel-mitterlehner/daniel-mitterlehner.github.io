@@ -2,9 +2,11 @@
     Title: Dev Portfolio Template
     Version: 1.2.2
     Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
+    Author: Daniel Mitterlehner
+
+    Author Template: Ryan Fitzgerald
+    Repo Template: https://github.com/RyanFitzgerald/devportfolio-template
+    Issues Template: https://github.com/RyanFitzgerald/devportfolio-template/issues
 
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
@@ -123,6 +125,7 @@ body {
                 font-size: 0.9em;
                 margin: 0;
             }
+
         }
 
         &:before, &:after {
@@ -668,10 +671,14 @@ footer {
         margin: 0 0 15px 0;
     }
 
-    p {
+    p, ul {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+
+    ul {
+        padding: 0 0 0 15px;
     }
 }
 
